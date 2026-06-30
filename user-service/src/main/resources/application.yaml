@@ -32,3 +32,7 @@ resilience4j:
         failureRateThreshold: 40
         waitDurationInOpenState: 10s
         permittedNumberOfCallsInHalfOpenState: 3
+
+jwt:
+  secret : neeraja-secret-key-minimun-32-characters-long
+  expiration : 3600000 # one hour in ms
